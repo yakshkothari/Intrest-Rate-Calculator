@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="intrest.css" />
+    <title>Intrest Rate Calculator</title>
+  </head>
+  <body>
+    <section class="sectionOne">
+      <fieldset>
+        <legend style="color: brown;">Intrest rate calculator by Yaksh Kothari</legend>
+        <label for="famount">Amount (₹)</label> <br />
+        <input
+          type="text"
+          id="initialAmount"
+          size="15"
+          name="initialAmount"
+          placeholder="Enter amount in ₹"
+        />
+        <br /><br />
+        <label for="fdays">Period (No. of days)</label> <br />
+        <input
+          type="text"
+          id="numberOfDays"
+          size="15"
+          name="numberOfDays"
+          placeholder="Enter no. of days"
+        />
+        <br><br>
+        <div class="flexiBox">
+          <div>
+            <label for="fintrestRate">Intrest rate</label><br />
+            <input style="color: brown;"
+              type="text"
+              id="fintrestRate"
+              size="15"
+              name="fintrestRate"
+              disabled/>
+            <br><br>
+          </div>
+          <div>
+            <label for="fFinalAmount">Maturity amount</label><br />
+            <input style="color: brown;"
+              type="text"
+              id="fFinalAmountValue"
+              size="18"
+              name="amountValue"
+              disabled/>
+          </div>
+        </div>
+        <div>
+            <button class="buttonBox" id="calculateIntrest">Calculate</button>
+            <!-- <button class="buttonBox" id="resetValues">Reset</button> -->
+        </div>
+      </fieldset>
+    </section>
+    <script src="intrest.js"></script>
+  </body>
+</html>

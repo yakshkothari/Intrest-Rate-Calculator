@@ -1,0 +1,20 @@
+.sectionOne{
+width: 25%;
+}
+
+.flexiBox{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.buttonBox{
+    cursor: pointer;
+    padding: 5px;
+
+}
+:hover.buttonBox{
+    background-color: rgb(171, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    
+}
